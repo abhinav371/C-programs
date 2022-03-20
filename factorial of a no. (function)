@@ -1,0 +1,14 @@
+#include<stdio.h>
+void fact(int a);
+void main()
+{
+	int a;
+}
+void fact(int a)
+{
+	int b;
+	printf("enter a value : ");
+	scanf("%d",&a);
+	b=fact(a);
+	printf("factorial of a =%d",b);
+}
