@@ -1,0 +1,16 @@
+#include<stdio.h>
+void eligible();
+void main()
+{
+	eligible();
+}
+void eligible()
+{
+	int a;
+	printf("enter person age : ");
+	scanf("%d",&a);
+	if(a>=18)
+	printf("person is eligible for voting");
+	else
+	printf("person is not eligible for voting");
+}
