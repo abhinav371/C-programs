@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+	int a[100],n,i,m=0,s=0;
+	printf("enter size : ");
+	scanf("%d",&n);
+	for(i=0;i<n;i++)
+	{
+	    scanf("%d",&a[i]);
+	    if(a[i]%2==0)
+	    n++;
+	    else
+	    s++;
+	}
+	printf("even count = %d",n);
+	printf("\n odd count = %d",s);
+}
