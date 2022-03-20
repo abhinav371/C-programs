@@ -1,0 +1,28 @@
+#include<stdio.h>
+int max(int[],int);
+int main()
+{
+    int a[10],n,m,i;
+    printf("Enter size of array : ");
+    scanf(“%d”,&n);
+    printf("\n enter the elments : ");
+    for(i=0;i<n;i++)
+    {
+    	scanf("%d",&a[i]);
+    }
+    m=m(a,n);
+    printf("max number : ",m);
+    return 0;
+}
+int max(int a[],int n)
+
+{
+    int i,m;
+    m=a[10];
+    for(i=1;i<n;i++)
+    {
+        if(m<a[i])
+            m=a[i];
+    }
+    return m;
+}
