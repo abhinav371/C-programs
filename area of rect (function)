@@ -1,0 +1,15 @@
+#include<stdio.h>
+int areaofrect(int,int);
+int main()
+{
+    int l,b,area;
+	printf("enter length and breadth : ");
+	scanf("%d%d",&l,&b);
+	area=areaofrect(l,b);	
+}
+int areaofrect(int l,int b)
+{
+	int area;
+	area=(l*b);
+	printf("area of rect : %d",area);
+}
