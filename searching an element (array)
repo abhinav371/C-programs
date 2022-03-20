@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+	int a[10],n,i,j,k;
+	printf("enter the size : ");
+	scanf("%d",&n);
+	printf("enter the numbers : ");
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf("enter a number to be searched : ");
+	scanf("%d",&k);
+	for(i=0;i<n;i++)
+	{
+		if(a[i]==k)
+		{
+			j++;
+			break;
+		}
+	}
+	if(j=a[i])
+	printf("number is found");
+	else
+	printf("number is not found");
+}
