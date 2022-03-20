@@ -1,0 +1,25 @@
+#include<stdio.h>
+  int perfect(int);
+  int main()
+  {
+   int n,s;
+   printf("enter a number: ");
+   scanf("%d",&n);
+   s=perfect(n);
+   if(s==n)
+   printf("\n The given number %d is a perfect number",n);
+   else
+   printf("\n The given number %d is not a perfect number",n);
+   return 0;
+  }
+  int perfect(int b)
+  {
+   int a=1,sum=0;
+   while(a<b)
+	{
+     if(b%a==0)
+     sum=sum+a;
+     a++;
+    }
+    return(sum);
+    }
