@@ -1,0 +1,24 @@
+#include<stdio.h>
+void area();
+void perimeter();
+void main()
+{
+	area();
+	perimeter();
+}
+void area()
+{
+	int r,area;
+	printf("enter radius of a circle : ");
+	scanf("%d",&r);
+	area=(22/7)*r*r;
+	printf("area of a circle : %d",area);
+}
+void perimeter()
+{
+	int r,perimeter;
+	printf("\n eneter radius of circle : ");
+	scanf("%d",&r);
+	perimeter=2*22/7*r;
+	printf("perimeter of a circle : %d",perimeter);
+}
